@@ -1,0 +1,87 @@
+/* - MENYSIDAN - */
+.small-p {
+    font-size: smaller;
+}
+.jumbotron {
+    height: 300px;
+    background-color: rgba(168, 32, 14, 0.178);
+}
+/* - - - */
+
+
+/* - om oss sidan - */
+h1 {
+  text-align: center;
+
+}
+.text-center {font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:black
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color:rgb(255, 255, 255)
+}
+.img-omoss{
+    width: 100%;
+    opacity: 0.5;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:rgb(77, 3, 3)
+  }
+  /* - om oss sidan - */
+
+
+
+  /* - index - */
+
+ .view {
+     height: 700px;
+ }
+  h6 {
+      color: rgb(77, 3, 3);
+    line-height: 1.7;
+  }
+  .mb-4 {
+    padding-top: 3em;
+  }
+  .btn {
+      margin-top:1em;
+  }
+
+  .flash {
+    padding-top: 2em;
+    text-align: center;
+    position: relative;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 2em;
+    letter-spacing: 4px;
+    overflow: hidden;
+    background: linear-gradient(90deg, rgb(146, 72, 72), #fff, rgb(233, 32, 32));
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: animate 3s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+  }
+  
+  @keyframes animate {
+    0% {
+      background-position: -500%;
+    }
+    100% {
+      background-position: 500%;
+    } 
+  }
+  
+/* - footer - */
+  .p-3{
+    color:#fff;
+  }
